@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Your build steps go here
-                sh 'echo "Building..."'
+                sh 'echo "Rishav Build..."'
             }
         }
         stage('Test') {
